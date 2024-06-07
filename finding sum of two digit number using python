@@ -1,0 +1,9 @@
+while True:
+    a = input('enter a two digit number to get its sum\n>')
+    if len(a) != 2:
+        print("Invalid input. Please enter a two digit number.")
+        break
+    first_number = int(a[0])
+    second_number = int(a[1])
+    sum = first_number + second_number
+    print(sum)
